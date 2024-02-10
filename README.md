@@ -1,5 +1,23 @@
 # Angular Full Stack 
 
+##V2 of app working with Mongo
+
+
+https://github.com/groznikg/essa-k8s/assets/47865956/740db25f-dc29-4188-81f3-2f8af73d378e
+
+##V2 -> V3
+
+https://github.com/groznikg/essa-k8s/assets/47865956/1738558b-c9d0-409c-bed9-70d734b7be41
+
+
+##V3 working
+
+
+
+https://github.com/groznikg/essa-k8s/assets/47865956/dbcc16b3-249f-4bf8-b9b9-12c46c27de7f
+
+
+
 
 Angular Full Stack is a project to easly get started with the latest Angular using a real backend and database. Whole stack is in TypeScript, from frontend to backend, giving you the advantage to code in one single language throughout the all stack.
 
@@ -37,6 +55,7 @@ A window will automatically open at [localhost:4200](http://localhost:4200). Ang
 3. Run MongoDB: `mongod`
 4. Run the app: `npm start`
 
+
 ### Docker
 1. `sudo docker-compose up`
 2. Go to [localhost:3000](http://localhost:3000)
@@ -60,9 +79,6 @@ Run `npm run testbe` to execute the backend tests via [Jest](https://jestjs.io/)
 
 ## Running linters
 Run `npm run lint` to execute [Angular ESLint](https://github.com/angular-eslint/angular-eslint), [HTML linting](https://github.com/htmlhint/HTMLHint) and [SASS linting](https://github.com/sasstools/sass-lint).
-
-## Wiki
-To get more help about this project, [visit the official wiki](https://github.com/DavideViolante/Angular-Full-Stack/wiki).
 
 ## Further help
 To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
