@@ -1,16 +1,16 @@
 # Angular Full Stack 
 
-##V2 of app working with Mongo
+## V2 of app working with Mongo
 
 
 https://github.com/groznikg/essa-k8s/assets/47865956/740db25f-dc29-4188-81f3-2f8af73d378e
 
-##V2 -> V3
+## V2 -> V3
 
 https://github.com/groznikg/essa-k8s/assets/47865956/1738558b-c9d0-409c-bed9-70d734b7be41
 
 
-##V3 working
+## V3 working
 
 
 
