@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    io.kompose.service: app-v2
+  name: app-v2
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      io.kompose.service: app-v2
+  strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        io.kompose.service: app-v2
+    spec:
+      containers:
+      - image: localhost:32000/app:v2
+        imagePullPolicy: "IfNotPresent"
+        name: afs
+        ports:
+        - containerPort: 3000
+        resources: {}
+      restartPolicy: Always
+      serviceAccountName: ""
+      volumes: null
+status: {}
